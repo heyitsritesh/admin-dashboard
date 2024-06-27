@@ -178,10 +178,12 @@ body {
 
 .project {
     background: white;
-    padding: 18px 22px 20px;
+    padding: 13px 22px 28px;
     border-radius: 6px;
     border-left: 7px solid #e2b232;
     box-shadow: 3px 4px 5px 0px #cccccc;
+    display: grid;
+    grid-template-rows: 1fr 2.5fr 25px;
 }
 
 .announcements {
@@ -239,4 +241,23 @@ body {
 .sideMenu2 svg {
     fill: white;
     max-height: 16px;
+}
+
+.metaIcons {
+    display: flex;
+    justify-content: end;
+    gap: 25px;
+}
+
+.metaIcons svg {
+    max-height: 25px;
+}
+
+.project h4 {
+    margin-bottom: 0;
+}
+
+.projects p {
+    margin-top: 5px;
+    color: #575757;
 }
